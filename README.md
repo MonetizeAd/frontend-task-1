@@ -72,11 +72,13 @@ Postman url: `https://www.postman.com/crimson-star-189557/workspace/monetizead-j
 
 Backend api url: `https://junior-test.mntzdevs.com`
 
+Obavezno se mora dodati trailing slash na kraju api rute!!!
+
 ## Register
 
 ### Request
 
-`POST /api/register`
+`POST /api/register/`
 
 ```json
 {
@@ -120,7 +122,7 @@ Server greska, nema reponse body-a
 
 ## Login
 
-`POST /api/login`
+`POST /api/login/`
 
 ```json
 {
@@ -154,7 +156,7 @@ Server greska, nema reponse body-a
 
 ## Listanje produkata
 
-`GET /api/products`
+`GET /api/products/`
 
 ### Headers
 
